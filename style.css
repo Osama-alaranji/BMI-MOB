@@ -2,9 +2,13 @@ html body {
   background-image: url("images/Backgroundf.jpg");
   background-size: cover;
     font-family: Comic Sans MS;
-    src: url("comici.ttf");
+    
     color: #495057;
     font-weight: 550;
+}
+@font-face {
+  font-family: Comic Sans MS;
+  src: url("comici.ttf");
 }
 /*  first interface */
 html body .interface { 
