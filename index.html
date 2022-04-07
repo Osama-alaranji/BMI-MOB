@@ -8,29 +8,46 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/icon.png">
     <title>BMI</title>
+    <meta name="theme-color" content="#03afdd">
 </head>
 
-<body>
+<body id="body">
     <div id="container" class="container">
-    <div class="interface" id="interface">
-    <img src="images/bmi.png">
-        <form id="bmi">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"  placeholder="Fatena"   required>
-            <label for="name">Height:</label>
-            <input type="number" id="height" name="height" id="height" placeholder="0 CM"  min="50" max="250" required>
-            <label for="weight">weight:</label>
-            <input type="number" id="name" name="weight" id="weight" placeholder="0 KG" min="20" max="250" required>
-            <p>
-            <input type='radio' id='male'  name='radio'  required>
-            <label for='male'>Male</label>
-            <input type='radio' id='female' name='radio' required>
-            <label for='female'>Female</label></p>
-            <input type="submit" value="Calculate">
-            
-        </form>
+        <!-- first interface -->
+        <div class="interface" id="interface">
+            <img src="images/bmi.png">
+            <form id="bmi">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Fatena" maxlength="12" required>
+                <label for="name">Height:</label>
+                <input type="number" id="height" name="height" id="height" placeholder="0 CM" min="50" max="250"
+                    required>
+                <label for="weight">weight:</label>
+                <input type="number" name="weight" id="weight" placeholder="0 KG" min="20" max="250" required>
+                <p>
+                    <input type='radio' id='male' name='radio' required>
+                    <label for='male'>Male</label>
+                    <input type='radio' id='female' name='radio' required>
+                    <label for='female'>Female</label>
+                </p>
+                <input type="submit" value="Calculate">
+
+            </form>
+        </div>
+        <!-- end interface -->
+
+        <div class="greeting" id="greeting">~WELCOME osama asmdas~ &nbsp; &nbsp;<div ><img src="images/greeting.png" class="imgd"  ></div></div>
+       
+        <div class="bmibody" id="bmibody">
+            <div class="normal"></div>
+            <div class="info" id="info" >
+                <b>Bmi: </b>obes3  <br><br>
+                <b>Weight: </b>obes3  <br><br>
+                <b>Height: </b>obes3  
+            </div>
+        </div>
     </div>
-</div>
+    
     <script src="main.js"></script>
 </body>
 
