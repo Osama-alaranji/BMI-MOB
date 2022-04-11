@@ -116,13 +116,13 @@ html body .interface {
     box-shadow: 0 0 7px #03aeddd1 ;
     width: auto;
     height: 40px;
-    
+    color: white;
 
   }
-  .normal {
+  .obes3 {
     width: 54%;
     top: 23px;
-    height: 400px;
+    height: 375px;
     /* border: 1px solid black ; */
     position: relative;
     left: 46%;
@@ -161,4 +161,13 @@ html body .interface {
     b {
       color: #03afdd;
       font-size: larger;
+    }
+    .diet {
+      /* border: 1px black solid ; */
+      position: relative;
+      top: -350px;
+      height: 190px;
+    }
+    .doctor {
+      width: 340px;
     }
