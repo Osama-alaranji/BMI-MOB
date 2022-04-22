@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/icon.png">
     <title>BMI</title>
-    <meta name="theme-color" content="#03afdd">
+    <meta name="theme-color" content="#8c64e7">
 </head>
 
 <body id="body">
@@ -18,7 +18,7 @@
             <img src="images/bmi.png">
             <form id="bmi">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Fatena" maxlength="12" required>
+                <input type="text" id="name" name="name" placeholder="Fatena" maxlength="10" required>
                 <label for="name">Height:</label>
                 <input type="number" id="height" name="height" id="height" placeholder="0 CM" min="50" max="250"
                     required>
@@ -35,27 +35,30 @@
             </form>
         </div>
         <!-- end interface -->
+        <div class="final" id="final">
+            <div class="greeting" id="greeting">
+            </div>
 
-        <div class="greeting" id="greeting">~WELCOME osama asmdas~ &nbsp; &nbsp;<div><img src="images/greeting.png"
-                    class="imgd"></div>
+
+            <div id="bmibody" ></div>
+            <div class="info" id="info">
+               
+            </div>
+
+            <div class="diet">
+                <hr>
+                <h2>Diet</h2>
+                <img src="images/doctor.png" class="doctor">
+                <div id="dietinfo" class="dietinfo"></div>
+                <span id="dietbtn"></span>
+            </div>
+            
+             <div class="end">
+                 <hr>
+                 <img src="images/end.png" class="endimage">
+                 <button id="back" class="back">< Back</button>
+             </div>
         </div>
-
-
-        <div id="body" class="obes3"></div>
-        <div class="info" id="info">
-            <b>Bmi: </b>obes3 <br><br>
-            <b>Weight: </b>obes3 <br><br>
-            <b>Height: </b>obes3
-        </div>
-        
-        <div class="diet">
-            <hr>
-           <h2>Diet</h2>
-           <img src="images/doctor.png" class="doctor">
-        <div id="dietinfo" class="dietinfo"></div>
-    </div>
-    
-
     </div>
 
     <script src="main.js"></script>
