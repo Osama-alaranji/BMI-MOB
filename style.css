@@ -375,9 +375,9 @@ html body .interface {
       width: 70px;
       height: 30px;
       text-align: center;
-      position: relative;
+      /* position: relative;
       top: -250px;
-      left: -200px;
+      left: -200px; */
     }
     /*  end end  */
     .final {
