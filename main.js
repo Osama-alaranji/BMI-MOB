@@ -169,3 +169,8 @@ back.onclick = function(){
     
 
 }
+// disable scroll 
+window.onscroll = function () {
+    window.scrollLeft = 0;
+  }
+//   
