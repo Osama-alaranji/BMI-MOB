@@ -123,12 +123,12 @@ html body .interface {
   /*  start animation  */
   /* male animation  */
   .anim   {
-    width: 56%;
+    width: 58%;
     top: 23px;
     height: 400px;
     /* border: 1px solid black ; */
     position: relative;
-    left: 46%;
+    left: 42%;
     background-size: cover;
     background-image: url(images/male/2.png);}
     .obes3 {
@@ -206,12 +206,12 @@ html body .interface {
             /* end male animation */
             /* female animation */
             .animf   {
-              width: 56%;
+              width: 58%;
               top: 23px;
               height: 400px;
               /* border: 1px solid black ; */
               position: relative;
-              left: 46%;
+              left: 42%;
               background-size: cover;
               background-image: url(images/female/2.png);}
               .obes3f {
@@ -325,8 +325,8 @@ html body .interface {
       background-color: #ffad01;
      border-radius: 5px;
      position: relative;
-     top: -544px;
-     left: 215px;
+     top: -542px;
+     left: 180px;
      width: 50px;
      height: 21px;
      color: white;
@@ -340,7 +340,7 @@ html body .interface {
     .doctor {
       width: 306px;
       position: relative;
-    left: 137px;
+    left: 100px;
     top: -20px;
     }
     .dietinfo {
@@ -365,7 +365,7 @@ html body .interface {
     .endimage {
       width: 320px;
       position: relative;
-      left: 100px;
+      left: 80px;
     }
     .back {
       all: unset;
