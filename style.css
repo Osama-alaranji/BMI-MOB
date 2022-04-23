@@ -325,8 +325,8 @@ html body .interface {
       background-color: #ffad01;
      border-radius: 5px;
      position: relative;
-     top: -542px;
-     left: 180px;
+     top: -538px;
+     left: 179px;
      width: 50px;
      height: 21px;
      color: white;
@@ -375,9 +375,9 @@ html body .interface {
       width: 70px;
       height: 30px;
       text-align: center;
-      /* position: relative;
-      top: -250px;
-      left: -200px; */
+      position: relative;
+      top: -300px;
+    
     }
     /*  end end  */
     .final {
