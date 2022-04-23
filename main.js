@@ -171,6 +171,6 @@ back.onclick = function(){
 }
 // disable scroll 
 window.onscroll = function () {
-    window.scrollLeft = 0;
-  }
+    window.scrollTo(0,window.scrollY);
+};
 //   
